@@ -1,8 +1,7 @@
 name: Sync gyschordweb to this repo
 
 on:
-  schedule:
-    - cron: '0 17 * * *' # Setiap hari jam 00:00 UTC+7 (17:00 UTC)
+  repository_dispatch:
   workflow_dispatch:
 
 jobs:
